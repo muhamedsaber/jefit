@@ -3,7 +3,7 @@ import 'dart:ui';
 class DarkThemeColors {
   DarkThemeColors._();
   static const Color primaryColor = Color(0xffCDF55B);
-  static const Color onPrimaryColor = Color(0xff000000);
+  static const Color onPrimaryColor = Color(0xffffffff);
   static const Color scaffoldBackgroundColor = Color(0xff131419);
   static const Color surfaceColor = Color(0xff333739);
   static const Color onSurfaceColor = Color(0xffffffff);

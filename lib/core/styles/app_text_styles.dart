@@ -4,108 +4,128 @@ import 'package:jefit/core/helpers/extensions.dart';
 
 class AppTextStyles {
   // Primary Color
-  TextStyle designer16MediumPrimary(BuildContext context) => TextStyle(
+
+  static const String _designerFont="Designer";
+ static TextStyle designer16MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 16.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+        fontFamily: _designerFont
       );
 
-  TextStyle designer18MediumPrimary(BuildContext context) => TextStyle(
+ static TextStyle designer18MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 18.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+         fontFamily: _designerFont
       );
-  TextStyle designe20MediumPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe20MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 20.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+         fontFamily: _designerFont
       );
-  TextStyle designe22MediumPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe22MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 22.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe24MediumPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe24MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 24.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe26MediumPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe26MediumPrimary(BuildContext context) => TextStyle(
         fontSize: 26.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.primary,
+         fontFamily: _designerFont
       );
 
   /// onPrimary Color
 
-  TextStyle designer16MediumOnPrimary(BuildContext context) => TextStyle(
+  static TextStyle designer16MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 16.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
 
-  TextStyle designer18MediumOnPrimary(BuildContext context) => TextStyle(
+ static TextStyle designer18MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 18.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
-  TextStyle designe20MediumOnPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe20MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 20.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
-  TextStyle designe22MediumOnPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe22MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 22.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe24MediumOnPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe24MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 24.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe26MediumOnPrimary(BuildContext context) => TextStyle(
+ static TextStyle designe26MediumOnPrimary(BuildContext context) => TextStyle(
         fontSize: 26.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onPrimary,
+         fontFamily: _designerFont
       );
 
   // onSurface Color
-  TextStyle designer16MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designer16MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 16.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
 
-  TextStyle designer18MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designer18MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 18.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
-  TextStyle designe20MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designe20MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 20.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
-  TextStyle designe22MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designe22MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 22.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe24MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designe24MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 24.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
 
-  TextStyle designe26MediumOnSurface(BuildContext context) => TextStyle(
+ static TextStyle designe26MediumOnSurface(BuildContext context) => TextStyle(
         fontSize: 26.sp,
         fontWeight: FontWeight.w500,
         color: context.theme.colorScheme.onSurface,
+         fontFamily: _designerFont
       );
 }

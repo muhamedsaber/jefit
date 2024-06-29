@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:jefit/config/router/app_router.dart';
+import 'package:jefit/config/router/routes.dart';
 import 'package:jefit/config/theme/dark_theme_manager.dart';
+import 'package:jefit/main.dart';
 
 class JefitApp extends StatelessWidget {
   const JefitApp({super.key});
@@ -15,14 +18,8 @@ class JefitApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: DarkThemeManager.darkTheme,
-          home: Scaffold(
-            appBar: AppBar(
-              title: const Text('Jefit App'),
-            ),
-            body: const Center(
-              child: Text('Hello World'),
-            ),
-          ),
+          initialRoute: isUserLoggedIn ? Routes.homeView : Routes.auth,
+          onGenerateRoute: AppRouter.instance.onGenerateRoute,
         );
       },
     );

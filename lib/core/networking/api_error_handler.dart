@@ -1,6 +1,6 @@
 
 import 'package:dio/dio.dart';
-import 'package:jefit/config/networking/api_error_model.dart';
+import 'package:jefit/core/networking/api_error_model.dart';
 
 enum DataSource {
   noContent,
